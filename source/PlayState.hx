@@ -3073,6 +3073,12 @@ class PlayState extends MusicBeatState
 
 	private function popUpScore(note:Note = null):Void
 	{
+	
+	if(ClientPrefs.hitsounds)
+	{
+		FlxG.sound.play(Paths.sound('hitsounds/' + ClientPrefs.hitsoundtype, 'shared'), ClientPrefs.hitsound);
+	}
+	
 		var noteDiff:Float = Math.abs(note.strumTime - Conductor.songPosition + 8); 
 
 		// boyfriend.playAnim('hey');
