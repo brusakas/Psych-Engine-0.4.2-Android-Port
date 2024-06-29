@@ -915,7 +915,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 					case 'Note Splashes':
 						ClientPrefs.noteSplashes = !ClientPrefs.noteSplashes;
 						
-					case 'Hitsounds'
+					case 'Hitsounds':
 					    ClientLrefs.hitsounds = !ClientPrefs.hitsounds
 
 					case 'Flashing Lights':
