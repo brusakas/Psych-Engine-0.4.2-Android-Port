@@ -3076,7 +3076,7 @@ class PlayState extends MusicBeatState
 	
 	if(ClientPrefs.hitsounds)
 	{
-		FlxG.sound.play(Paths.sound('hitsounds/' + ClientPrefs.hitsoundtype, 'shared'), ClientPrefs.hitsound);
+		FlxG.sound.play(Paths.sound('hitsounds/' + ClientPrefs.hitsoundtype, 'shared'), ClientPrefs.hitsounds);
 	}
 	
 		var noteDiff:Float = Math.abs(note.strumTime - Conductor.songPosition + 8); 
