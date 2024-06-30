@@ -1053,7 +1053,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 			case 'Note Splashes':
 				daText = "If unchecked, hitting \"Sick!\" notes won't show particles.";
 			case 'Hitsounds'
-			    daText = "testing shit lmao" // lmao haa
+			    daText = "testing shit lmao"; // lmao haa
 			case 'Flashing Lights':
 				daText = "Uncheck this if you're sensitive to flashing lights!";
 			case 'Camera Zooms':
